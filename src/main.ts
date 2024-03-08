@@ -1,10 +1,9 @@
 import { createApp } from "vue";
 import "./style.css";
-import "./index.css";
 import App from "./App.vue";
 
 import PrimeVue from "primevue/config";
-import Wind from "./presets/index.js";
+import Wind from "./presets/wind";
 
 const app = createApp(App);
 
